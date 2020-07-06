@@ -1,0 +1,31 @@
+.list-view .list-cell:even {
+	-fx-background-color: black;
+	-fx-text-fill: white;
+}
+.list-view .list-cell:odd {
+	-fx-background-color: black;
+	-fx-text-fill: white;
+}
+.scroll-pane {
+   -fx-background: #000000;
+   -fx-border-color: #000000;
+}
+
+
+.bodybg{
+	-fx-background-image:url(..//images/bg.jpg);
+	-fx-background-size:100% 100%;
+}
+.chatbodybg{
+	-fx-background-image:url(..//images/chatBg.jpg);
+	-fx-background-size:100% 100%;
+	 
+}
+.scroll-pane > .viewport {
+   -fx-background-color:transparent;
+   -fx-border-color:transparent;
+}
+.scroll-pane {
+   -fx-background-color: transparent;
+   -fx-border-color:transparent ;
+}
